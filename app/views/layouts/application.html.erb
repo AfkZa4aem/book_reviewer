@@ -9,9 +9,14 @@
 <body>
 
 <% flash.each do |key, value| %>
+<<<<<<< HEAD
   <p id='<%= key %>'><%= value %></p>
 <% end %>
 
+=======
+	<p id='<%= key %>'><%= value %></p>
+<% end %>
+>>>>>>> origin/master
 <%= yield %>
 
 </body>
