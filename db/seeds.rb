@@ -10,7 +10,6 @@ Book.create! [
 
 eloquent = Book.find_by name: "Eloquent Ruby"
 eloquent.notes.create! [
-<<<<<<< HEAD
   { title: "Wow", note: "Great book to learn Ruby" },
   { title: "Funny", note: "Doesn't put you to sleep" }
 ]
@@ -24,8 +23,3 @@ Book.all.each do |book|
   book.reviewer = reviewers.sample
   book.save!
 end
-=======
-  { title: "Wow", note: "Great book to learn Ruby"},
-  { title: "Funny", note: "Doesn't put you to sleep"}
-]
->>>>>>> origin/master
